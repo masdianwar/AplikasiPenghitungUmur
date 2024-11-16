@@ -146,5 +146,6 @@ String description = event.getString("description");
 String translatedDescription = translateToIndonesian(description);
 String peristiwa = year + ": " + translatedDescription;
 javax.swing.SwingUtilities.invokeLater(() ->
-txtAreaPeristiwa.append(peristiwa + "\n"));
+txtAreaPeristiwa.append(peristiwa + "\n");
+});
 }
